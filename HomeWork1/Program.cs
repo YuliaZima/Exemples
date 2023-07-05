@@ -80,10 +80,10 @@ while (counter <= number)
 {
    if (counter%2 == 0)
    {
+    
     Console.Write(counter + " ");
-    counter++;
    }
-   
+   counter++;
 }
 }
 
