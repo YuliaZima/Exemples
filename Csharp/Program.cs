@@ -14,7 +14,7 @@
 
 void Task15()
 {
-    /* Random rnd = new Random();
+     Random rnd = new Random();
      int number = rnd.Next(1,8);
      Console.WriteLine($"Выпало случайное число: {number}");
 
@@ -26,7 +26,7 @@ void Task15()
  else 
      {
          Console.WriteLine($"{number} - является выходным");
-     }*/
+     }
 
 }
 
