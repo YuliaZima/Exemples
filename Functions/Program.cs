@@ -42,11 +42,34 @@ void Task29()
 
     for (int i = 0; i < size; i++)
     {   
-        //Console.Write($"numbers[{i}] = ");
-        //Console.WriteLine(numbers[i]);
         Console.Write($"{numbers[i]} ");
     }
 
     Console.WriteLine();
+
+    int temp;
+
+    for (int i = 0; i < size - 1; i++)
+    {
+        for (int j = i + 1; j < size; j++)
+        {
+            if (numbers[i] > numbers[j])
+            {
+                temp = numbers[i];
+                numbers[i] = numbers[j];
+                numbers[j] = temp;
+            }
+        }
+    }
+
+    Console.WriteLine("Вывод отсортированного массива: ");
+    for (int i = 0; i < size; i++)
+    {
+        Console.Write($"{numbers[i]} " );
+    }
+        Console.WriteLine();
 }
+
+Task27();
+Task25();
 Task29();
